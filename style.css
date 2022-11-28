@@ -1,22 +1,39 @@
 body{
+    background: linear-gradient(#002466, #06092a);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     height: 100vh;
     margin: 0;
 }
 .container{
     margin: 0px;
-    height: 680px;
-    width: 680px;
-    border: solid black 2px;
+    height: 700px;
+    width: 700px;
+    border: solid rgb(6, 0, 185) 6px;
+    box-shadow: 0 0px 8px 2px rgb(255, 255, 255);
 }
 .gridcontainer{
+    background-color: white;
     padding: 0px;
     margin: 0px;
     display: flex;
     border: none;
 }
 .divclass{
-    border: solid black 2px;
+    border: solid rgb(216, 216, 255) 0.5px;
+}
+.btn{
+    background: linear-gradient(#002466, #06092a);
+    color: white;
+    box-shadow: 0 0px 8px 1px rgb(255, 255, 255);
+    font-size: 28px;
+    text-align: center;
+    height: 40px;
+    width: 8vw;
+    border-radius: 5px;
+}
+.btn:hover{
+    cursor:grab;
 }

@@ -1,11 +1,11 @@
-
-const num = (680-4*16)/16;
+const number = prompt("No. of Boxes[1-64]");
+const num = (700-2.1*number)/number;
 const container = document.querySelector('.container');
-for(let i =0;i<16;i++){
+for(let i =0;i<number;i++){
     const div = document.createElement('div');
     div.classList.add('gridcontainer')
     container.appendChild(div);
-    for(let j =0;j<16;j++){
+    for(let j =0;j<number;j++){
         const div1 = document.createElement('div');
         div1.setAttribute('class','divclass');
         div1.setAttribute('style',`height:${num}px; width:${num}px;`);
