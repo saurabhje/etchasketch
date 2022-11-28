@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    margin: 0px;
+    height: 680px;
+    width: 680px;
+    border: solid black 2px;
+}
+.gridcontainer{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    border: none;
+}
+.divclass{
+    border: solid black 2px;
+}
