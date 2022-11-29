@@ -1,3 +1,5 @@
+
+function gridmaker(){
 const number = prompt("No. of Boxes[1-64]");
 const num = (700-2.1*number)/number;
 const container = document.querySelector('.container');
@@ -12,9 +14,12 @@ for(let i =0;i<number;i++){
         div.appendChild(div1);
     }
 }
+
 div2 = document.querySelectorAll('.divclass');
 div2.forEach(element => {
     element.addEventListener("mouseover",()=>{
         element.style.backgroundColor = "black";
     });
 });
+}
+gridmaker();
