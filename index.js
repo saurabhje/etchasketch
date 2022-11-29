@@ -1,7 +1,7 @@
 const container = document.querySelector(".container");
 function gridmaker() {
     const number = prompt("No. of Boxes[1-64]");
-    const num = 750 / number;
+    const num = 700 / number;
     for (let i = 0; i < number; i++) {
         const div = document.createElement("div");
         div.classList.add("gridcontainer");
