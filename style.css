@@ -33,6 +33,7 @@ button{
     border-radius: 5px;
 }
 p{ margin: 0;
+    margin-bottom: 30px;
     color: rgb(255, 127, 22);
     font-family: 'VT323', monospace;
     text-align: center;
