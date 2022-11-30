@@ -1,9 +1,8 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+.jit{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100vh;
-    margin: 0;
 }
 .container{
     height: 650px;
@@ -33,3 +32,12 @@ button{
     width: 10vw;
     border-radius: 5px;
 }
+<<<<<<< HEAD
+=======
+p{ 
+    color: rgb(255, 127, 22);
+    font-family: 'VT323', monospace;
+    text-align: center;
+    font-size: 73px;
+}
+>>>>>>> 210bf4d (added headline)
