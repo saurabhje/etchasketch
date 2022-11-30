@@ -32,7 +32,7 @@ button{
     width: 10vw;
     border-radius: 5px;
 }
-p{ 
+p{ margin: 0;
     color: rgb(255, 127, 22);
     font-family: 'VT323', monospace;
     text-align: center;
