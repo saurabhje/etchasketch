@@ -1,10 +1,6 @@
 const container = document.querySelector(".container");
 function gridmaker() {
-    const number = prompt("No. of Boxes");
-    if(number>100){
-        alert("Number should be less than 100");
-        gridmaker();
-    }
+    const number = prompt("No. of Boxes[1-64]");
     const num = 650 / number;
     for (let i = 0; i < number; i++) {
         const div = document.createElement("div");
@@ -19,7 +15,7 @@ function gridmaker() {
     }
 
     div2 = document.querySelectorAll(".divclass");
-    div2.forEach((element) => {
+    div2.forEach(element => {
         let i = 0;
         let a = Math.floor(Math.random() * 256);
         let b = Math.floor(Math.random() * 256);
@@ -27,15 +23,43 @@ function gridmaker() {
         element.addEventListener("mouseenter", () => {
             element.style.background =
                 "rgb(" +
-                (a - (a / 2) * i) +
+                (a - (a / 100) * i) +
                 "," +
-                (b - (b / 3) * i) +
+                (b - (b / 100) * i) +
                 "," +
-                (c - (c / 5) * i) +
+                (c - (c / 100) * i) +
                 ")";
             i++;
         });
     });
+const btnb = document.querySelector('.black');
+btnb.addEventListener('click',() => {
+    div2.forEach(element => {
+        element.addEventListener("mouseenter", () =>{
+            element.style.background = 'black';
+        })
+    });
+});
+let btnc = document.querySelector('.color');
+btnc.addEventListener('click', ()=>{
+    div2.forEach(element => {
+        let i = 0;
+        let a = Math.floor(Math.random() * 256);
+        let b = Math.floor(Math.random() * 256);
+        let c = Math.floor(Math.random() * 256);
+        element.addEventListener('mouseenter',() =>{
+            element.style.background =
+            "rgb(" +
+            (a - (a / 100) * i) +
+            "," +
+            (b - (b / 100) * i) +
+            "," +
+            (c - (c / 100) * i) +
+            ")";
+        i++; 
+    });
+ });
+});
 }
 gridmaker();
 function gridset() {
@@ -50,3 +74,8 @@ function gridset() {
 
 let btn1 = document.querySelector(".btn");
 btn1.addEventListener("click", gridset);
+
+let btnc = document.querySelector('.black');
+btnc.addEventListener('click',() => {
+
+});
