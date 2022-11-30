@@ -1,7 +1,11 @@
 const container = document.querySelector(".container");
 function gridmaker() {
-    const number = prompt("No. of Boxes[1-64]");
-    const num = 700 / number;
+    const number = prompt("No. of Boxes");
+    if(number>100){
+        alert("Number should be less than 100");
+        gridmaker();
+    }
+    const num = 650 / number;
     for (let i = 0; i < number; i++) {
         const div = document.createElement("div");
         div.classList.add("gridcontainer");

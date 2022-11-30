@@ -7,8 +7,8 @@ body{
     margin: 0;
 }
 .container{
-    height: 700px;
-    width: 700px;
+    height: 6500px;
+    width: 650px;
     border: solid black 2px;
     box-shadow: 0 0 7px #777;
 }
