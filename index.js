@@ -6,7 +6,7 @@ function gridmaker() {
 		alert("Number should be lesser than 100");
 		gridmaker();
 	}
-	const num = 650 / number;
+	const num = 600 / number;
 	for (let i = 0; i < number; i++) {
 		const div = document.createElement("div");
 		div.classList.add("gridcontainer");
