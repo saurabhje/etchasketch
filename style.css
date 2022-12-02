@@ -36,8 +36,8 @@ button{
   width: 100%;
   border: none;
   color: inherit;
-  font-family: inherit;
-  font-size: inherit;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
   cursor: pointer;
   outline: none;
   padding: 10px 20px;
