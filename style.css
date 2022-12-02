@@ -49,6 +49,10 @@ button.active {
   background-color: var(--primary-dark);
   color: var(--primary-light);
 }
+button:hover
+{
+  transform: scale(1.05);
+}
 p{ margin: 0;
     margin-bottom: 30px;
     color: rgb(255, 127, 22);
