@@ -45,7 +45,15 @@ button{
   border-radius: 5px;
   box-shadow: 0 0 7px #777;
 }
-button.active {
+.btn:active {
+  background-color: var(--primary-dark);
+  color: var(--primary-light);
+}
+.black:active {
+  background-color: var(--primary-dark);
+  color: var(--primary-light);
+}
+.color:active {
   background-color: var(--primary-dark);
   color: var(--primary-light);
 }
