@@ -34,7 +34,7 @@ max-height: 100%;
 }
 button{
   width: 100%;
-  border: none;
+  border:0 none;
   color: inherit;
   font-family: 'Roboto', sans-serif;
   font-size: 23px;
