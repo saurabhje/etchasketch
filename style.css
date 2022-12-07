@@ -4,8 +4,8 @@
   --primary-light: #ededed;
   --secondary-light: #fefefe;
 }
-html{
-max-height: 100%;
+html,body{
+max-height: 100vh;
 }
 
 .jit{
